@@ -25,7 +25,7 @@ export default function Home() {
   }>({
     messages: [
       {
-        message: 'Hi, Welcome to Paid Setter University, How can i help you today?',
+        message: 'Hi, Welcome to Peace Travels & Tours, How can i help you today?',
         type: 'apiMessage',
       },
     ],
@@ -125,7 +125,7 @@ export default function Home() {
       <Layout>
         <div className="mx-auto flex flex-col gap-4">
           <h1 className="text-2xl font-bold leading-[1.1] tracking-tighter text-center">
-            Paid Setter University
+           Prince Travels and Tours
           </h1>
           <main className={styles.main}>
             <div className={styles.cloud}>
@@ -224,7 +224,7 @@ export default function Home() {
                     placeholder={
                       loading
                         ? 'Waiting for response...'
-                        : 'Ask me anything about Paid Setter University?'
+                        : 'Ask me anything about Peace Travel & Tours?'
                     }
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
@@ -261,12 +261,8 @@ export default function Home() {
           </main>
         </div>
         <footer className="m-auto p-4">
-        <a href="https://thepaidsetter.com/apply-for-a-slot1679242263861">
-            If you would like to Join us at PSU, Click here to book a meeting with me   
-          </a>
-          -- OR --
-          <a href="https://www.instagram.com/theabdulqawiyy/">
-               DM me on Instagram @TheAbdulQawiyy
+          <a href="https://www.instagram.com/peacetravelsz/">
+              If you would like book a consultation with us DM us on Instagram @peacetravelsz or Call +971555350309
           </a>
         </footer>
       </Layout>
